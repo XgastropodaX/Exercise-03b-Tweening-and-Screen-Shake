@@ -1,34 +1,29 @@
-```
-# Exercise-03b-Tweening-and-Screen-Shake
 
-Exercise for MSCH-C220
+# Brew Some Love!
+3/26/22
 
-Adding several "juicy" features to a simple match-3 game.
 
-## To play
-
-Select and drag tiles using the mouse.
+Description:
+You play as a Witch trying to make a love potion for your girlfriend by matching a bunch of different potion ingredients
 
 
 ## Implementation
-
-Built using Godot 3.4.2
+screenshake when match
+explosions when match
+music
+background
+text when match
+intro cutscene
+outro cutscene
+replay and quit menu after beating game
+story
+sound effects
+giggle because water
 
 ## References
- * [Juice it or lose it — a talk by Martin Jonasson & Petri Purho](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
- * The match-3 game is derived from code provided by [MisterTaftCreates](https://github.com/mistertaftcreates/Godot_match_3), with an accompanying [YouTube series](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2)
- * [Animal Pack Redux, provided by kenney.nl](https://kenney.nl/assets/animal-pack-redux)
- * [Puzzle Pack 2, provided by kenney.nl](https://kenney.nl/assets/puzzle-pack-2)
- * Explosion spritesheet provided by [Ville Seppanen](https://opengameart.org/content/explosion-animated)
- * [Ignotum Typeface](https://fontesk.com/ignotum-font/)
- * [Nepszabadag Typeface](https://fontesk.com/nepszabadsag-font/)
- * Screen Shake script provided by [KidsCanCode](https://kidscancode.org/godot_recipes/2d/screen_shake/)
- 
 
 ## Future Development
+I would like to make multiple stages of this. I think it would be fun. Had a bit of a family crisis that stopped me from working on this for a while so I was going to do more work for the original deadline but was quickly swamped by 16 billion other things. Still very proud of the product. As someone who's never done pixel art before I was pleasently surprised on how much I enjoyed it.
 
-Typeface changes, Music and Sound, Shaders
-
-## Created by 
+## Created by
 Max Moreno
-```
