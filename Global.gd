@@ -8,13 +8,13 @@ var scores = {
 	0:0,
 	1:0,
 	2:0,
-	3:10,
-	4:20,
-	5:50,
-	6:100,
-	7:200,
-	8:300,
-	9:1000
+	3:5,
+	4:10,
+	5:20,
+	6:40,
+	7:60,
+	8:60,
+	9:60
 }
 
 func _ready():
@@ -27,7 +27,9 @@ func _unhandled_input(event):
 func change_score(s):
 	score += s
 	emit_signal("changed")
+	if score >= 100:
+		var _scene = get_tree().change_scene("res://Endgame.tscn")
 	if camera == null:
 		camera = get_node_or_null("/root/Game/Camera")
 	if camera != null:
-		camera.add_trauma(s/20.0)
+		camera.add_trauma(s/35.0)

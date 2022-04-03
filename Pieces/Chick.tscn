@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Pieces/Piece.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Assets/chick.png" type="Texture" id=2]
+[ext_resource path="res://Assets/mushroom.png" type="Texture" id=2]
 
 [node name="Piece" instance=ExtResource( 1 )]
 color = "Chick"

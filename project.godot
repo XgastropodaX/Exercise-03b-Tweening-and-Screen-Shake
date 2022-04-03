@@ -14,7 +14,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Godot Match 3"
+config/name="Brew some love!"
+config/description="Make a love potion for your witch girlfriend."
 run/main_scene="res://UI/Menu.tscn"
 config/icon="res://icon.png"
 
@@ -31,6 +32,10 @@ window/handheld/orientation="portrait"
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 window/handheld/emulate_touchscreen=false
+
+[global]
+
+loop=false
 
 [input]
 
